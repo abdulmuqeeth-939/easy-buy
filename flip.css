@@ -1,0 +1,63 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #222;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.cart {
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+.product-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
